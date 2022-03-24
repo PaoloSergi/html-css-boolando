@@ -4,3 +4,57 @@
     padding: 0;
 }
 
+main{
+    height:500px;
+    background-color: red;
+    width:80%;
+    margin:auto;
+}
+
+.row{
+    width:100%;
+    text-align: center;
+}
+
+.row>.preview{
+    width: 30%;
+    display: inline-block;
+    position:relative;
+}
+
+.preview>img{
+    width: 100%;
+}
+
+.heart{
+    position:absolute;
+    top:20px;
+    right:0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    background-color: white;
+}
+
+.labels{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    color: white;
+}
+
+.labels>div{
+    display: inline-block;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.labels>.discount{    
+    background-color: rgb(233, 34, 34);
+    
+}
+
+.labels>.sustainibility{    
+    background-color: green;
+}
