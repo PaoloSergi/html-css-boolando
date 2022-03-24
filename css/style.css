@@ -73,7 +73,7 @@ main{
 }
 
 .labels>.sustainibility{    
-    background-color: green;
+    background-color: rgb(30, 109, 53);
 }
 
 .product>.details{
@@ -88,7 +88,7 @@ main{
     font-weight: 500;
 }
 
-.details>.discountedPrice{
+.details>.price{
     font-size: 15px;
     color: red;
     font-weight: 500;
